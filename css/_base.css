@@ -8,7 +8,16 @@
   font-family: "Inter", sans-serif;
 }
 
-body {
+body,
+html {
   width: 100%;
   height: 100%;
+  background-color: blanchedalmond;
+}
+
+main {
+  height: 100%;
+  margin: 17vh 5% 10vh 5%;
+  display: flex;
+  flex-direction: column;
 }
