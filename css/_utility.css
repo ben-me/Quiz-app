@@ -8,4 +8,5 @@ img {
 }
 
 a:hover {
+  background-color: rgba(red, green, 0, alpha);
 }
