@@ -3,5 +3,16 @@ footer {
   position: fixed;
   bottom: 0px;
   width: 100%;
-  border: 3px solid black;
+  border-top: 2px solid black;
+  max-height: 10vh;
+  /* justify-content: space-around; */
+  background-color: orange;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.33333333%;
+  /* border: 1px solid black; */
 }

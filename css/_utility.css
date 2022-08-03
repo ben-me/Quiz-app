@@ -1,3 +1,11 @@
 h1 {
   font-size: 100px;
 }
+
+img {
+  max-height: 80%;
+  width: 100px;
+}
+
+a:hover {
+}
