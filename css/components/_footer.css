@@ -4,8 +4,9 @@ footer {
   bottom: 0px;
   width: 100%;
   border-top: 2px solid black;
-  height: 8vh;
-  justify-content: space-around;
+  height: 10vh;
+  min-height: 10vh;
+  justify-content: space-evenly;
   background-color: cornflowerblue;
 }
 
@@ -13,6 +14,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20%;
+  width: 15%;
   /* border: 1px solid black; */
 }
