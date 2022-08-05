@@ -16,13 +16,8 @@ html {
 }
 
 main {
-  /* height: 100%; */
   margin: 0 auto 15vh auto;
-  /* display: flex; */
-  /* display: grid; */
   width: 100%;
-  /* align-items: center;
-  flex-direction: column; */
 }
 
 header {
