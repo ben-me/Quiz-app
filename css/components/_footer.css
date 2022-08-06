@@ -4,15 +4,16 @@ footer {
   bottom: 0px;
   width: 100%;
   border-top: 2px solid black;
-  max-height: 10vh;
-  /* justify-content: space-around; */
-  background-color: orange;
+  height: 10vh;
+  min-height: 10vh;
+  justify-content: space-evenly;
+  background-color: cornflowerblue;
 }
 
 .icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 33.33333333%;
-  /* border: 1px solid black; */
+  width: 15%;
+  min-width: 15%;
 }
