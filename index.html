@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Quiz App</title>
+    <script src="./js/index.js" defer></script>
   </head>
 
   <body>
@@ -19,8 +20,10 @@
         <p class="question__text">
           How can you initialize a local repo with the terminal?
         </p>
-        <button class="question__button">Show answer</button>
-        <p hidden>type "git init"</p>
+        <button class="question__button" data-js="le-bouton">
+          Show answer
+        </button>
+        <p class="bananarama">type "git init"</p>
         <div class="question__hashtags">
           <p class="question__hashtags--design">#git</p>
           <p class="question__hashtags--design">#cli</p>
