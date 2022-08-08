@@ -5,8 +5,7 @@
   grid-template-rows: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
-  height: 15rem;
-  max-height: 60%;
+  max-height: 70%;
   background-color: white;
   border-radius: 20px;
   text-align: center;

@@ -15,3 +15,15 @@ bouton.addEventListener("click", function onClick(event) {
     console.log("added");
   }
 });
+
+let bookmark = document.querySelector('[data-js="bookmark1"');
+let bookmarksaved = true;
+bookmark.addEventListener("click", () => {
+  if (bookmarksaved) {
+    bookmark.src = "../assets/bookmark_active.png";
+    bookmarksaved = !bookmarksaved;
+  } else {
+    bookmark.src = "../assets/bookmark.png";
+    bookmarksaved = true;
+  }
+});
