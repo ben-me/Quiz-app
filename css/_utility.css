@@ -8,5 +8,10 @@ img {
 }
 
 .active {
+  width: 100%;
   background-color: rgb(255, 255, 255);
+}
+
+.bananarama {
+  display: none;
 }
