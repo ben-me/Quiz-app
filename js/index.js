@@ -1,22 +1,16 @@
-const bouton = document.querySelector('[data-js="le-bouton"');
-let answer = true;
-const banana = document.querySelector(".bananarama");
+const answerButton1 = document.querySelector('[data-js="button1"');
+const answerText1 = document.querySelector('[data-js="answer1"');
 
-console.log(banana);
-
-bouton.addEventListener("click", function onClick(event) {
-  if (answer) {
-    banana.classList.remove("bananarama");
-    console.log("remove");
-    answer = !answer;
+answerButton1.addEventListener("click", () => {
+  answerText1.classList.toggle("hidden");
+  if (answerButton1.innerHTML === "Show answer") {
+    answerButton1.innerHTML = "Hide answer";
   } else {
-    banana.classList.add("bananarama");
-    answer = true;
-    console.log("added");
+    answerButton1.innerHTML = "Show answer";
   }
 });
 
-let bookmark = document.querySelector('[data-js="bookmark1"');
+const bookmark = document.querySelector('[data-js="bookmark1"');
 let bookmarksaved = true;
 bookmark.addEventListener("click", () => {
   if (bookmarksaved) {
