@@ -3,7 +3,7 @@ footer {
   position: fixed;
   bottom: 0px;
   width: 100%;
-  border-top: 2px solid black;
+  /* border-top: 2px solid black; */
   height: 10vh;
   max-height: 10vh;
   min-width: 10vh;
