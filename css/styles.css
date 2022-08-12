@@ -1,6 +1,7 @@
-@import "./_base.css";
+@import "./components/_base.css";
 @import "./components/_title.css";
-@import "./_utility.css";
+@import "./components/_utility.css";
 @import "./components/_footer.css";
 @import "./components/_question-card.css";
 @import "./components/_profile.css";
+@import "./components/_addquestion.css";
