@@ -15,7 +15,7 @@
       </nav>
     </header>
     <!-------- Home Page   ---------->
-    <main class="homepage">
+    <main class="homepage" data-js="main" id="Quiz-App">
       <!-------- Question Card 1   ---------->
       <section class="question" data-js="card">
         <img
@@ -103,10 +103,10 @@
     </main>
 
     <!-------- Bookmarks Page   ---------->
-    <main class="bookmarkpage"></main>
+    <main class="bookmarkpage" data-js="main" id="Bookmarks"></main>
 
     <!-------- Profile Page   ---------->
-    <main class="profilepage hidden">
+    <main class="profilepage hidden" data-js="main" id="Profile">
       <div class="profile">
         <section class="profile__userpic">
           <img src="./assets/profile.png" height="100px" width="200px" alt="" />
@@ -124,13 +124,23 @@
     </main>
 
     <footer>
-      <a href="#homepage" class="icons active">
+      <a
+        href="#homepage"
+        class="icons active"
+        data-js="page__anchor"
+        id="Quiz-App"
+      >
         <img src="./assets/home.png" alt="" />
       </a>
-      <a href="#bookmarkpage" class="icons">
+      <a
+        href="#bookmarkpage"
+        class="icons"
+        data-js="page__anchor"
+        id="Bookmarks"
+      >
         <img src="./assets/bookmark.png" alt="" />
       </a>
-      <a href="#profilepage" class="icons">
+      <a href="#profilepage" class="icons" data-js="page__anchor" id="Profile">
         <img src="./assets/profile.png" alt="" />
       </a>
     </footer>
