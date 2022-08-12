@@ -3,7 +3,6 @@ footer {
   position: fixed;
   bottom: 0px;
   width: 100%;
-  /* border-top: 2px solid black; */
   height: 10vh;
   max-height: 10vh;
   min-width: 10vh;
@@ -11,11 +10,15 @@ footer {
 }
 
 .icons {
-  background-color: rgb(32, 82, 147);
+  background: rgb(32, 82, 147);
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   min-width: 15%;
   border: none;
+}
+
+.active {
+  background: white;
 }

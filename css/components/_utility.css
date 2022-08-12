@@ -11,10 +11,6 @@ img {
   width: 100px;
 }
 
-.active {
-  background-color: white;
-}
-
 .hidden {
   display: none;
 }

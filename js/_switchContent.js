@@ -1,17 +1,17 @@
 export default function changePages() {
-  const anchors = document.querySelectorAll("[data-js=page__button]");
+  const buttons = document.querySelectorAll("[data-js=page__button]");
   const mains = document.querySelectorAll("[data-js=main]");
   const header = document.querySelector("h1");
 
-  anchors.forEach((anchor) => {
-    anchor.addEventListener("click", () => {
-      const activeAnchors = document.querySelector("button.active");
-      activeAnchors.classList.remove("active");
-      anchor.classList.add("active");
-      header.textContent = anchor.id;
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const activeButtons = document.querySelector("button.active");
+      activeButtons.classList.remove("active");
+      button.classList.add("active");
+      header.textContent = button.id;
 
       mains.forEach((main) => {
-        if (main.id === anchor.id) {
+        if (main.id === button.id) {
           //console.log("Die AnchorID " + anchor.id + ". Die MainID " + main.id);
           main.classList.remove("hidden");
         } else {

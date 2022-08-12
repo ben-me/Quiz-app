@@ -15,129 +15,139 @@
       </nav>
     </header>
     <!-------- Home Page   ---------->
-    <main class="" data-js="main" id="Quiz-App">
-      <!-------- Question Card 1   ---------->
-      <section class="question" data-js="card">
-        <img
-          src="./assets/bookmark.png"
-          alt=""
-          class="question__bookmark"
-          data-js="bookmark"
-        />
-        <p class="question__text">
-          How can you initialize a local repo with the terminal?
-        </p>
-        <button class="question__button" data-js="button">Show answer</button>
-        <p class="hidden" data-js="answer">type "git init"</p>
-        <div class="question__hashtags">
-          <p class="question__hashtags--design">#git</p>
-          <p class="question__hashtags--design">#cli</p>
-          <p class="question__hashtags--design">#vcs</p>
-          <p class="question__hashtags--design">#github</p>
-        </div>
-      </section>
-
-      <!-------- Question Card 2   ---------->
-      <section class="question" data-js="card">
-        <img
-          src="./assets/bookmark.png"
-          alt=""
-          class="question__bookmark"
-          data-js="bookmark"
-        />
-        <p class="question__text">What kind of selectors can you use in CSS?</p>
-        <button class="question__button" data-js="button">Show answer</button>
-        <p class="hidden" data-js="answer">
-          type, id, class, universal, pseudo elements and pseudo classes
-        </p>
-        <div class="question__hashtags">
-          <p class="question__hashtags--design">#css</p>
-          <p class="question__hashtags--design">#selectors</p>
-          <p class="question__hashtags--design">#styling</p>
-        </div>
-      </section>
-
-      <!-------- Question Card 3   ---------->
-      <section class="question" data-js="card">
-        <img
-          src="./assets/bookmark.png"
-          alt=""
-          class="question__bookmark"
-          data-js="bookmark"
-        />
-        <p class="question__text">
-          Which word allows you to have your grid-fields over several columns or
-          rows?
-        </p>
-        <button class="question__button" data-js="button">Show answer</button>
-        <p class="hidden" data-js="answer">type "span"</p>
-        <div class="question__hashtags">
-          <p class="question__hashtags--design">#grid</p>
-          <p class="question__hashtags--design">#cli</p>
-          <p class="question__hashtags--design">#vcs</p>
-        </div>
-      </section>
-
-      <!-------- Question Card 4   ---------->
-      <section class="question" data-js="card">
-        <img
-          src="./assets/bookmark.png"
-          alt=""
-          class="question__bookmark"
-          data-js="bookmark"
-        />
-        <p class="question__text">
-          How can you become a Programmer for web development?
-        </p>
-        <button class="question__button" data-js="button">Show answer</button>
-        <p class="hidden" data-js="answer">
-          Participate in a neue Fische Bootcamp
-        </p>
-        <div class="question__hashtags">
-          <p class="question__hashtags--design">#css</p>
-          <p class="question__hashtags--design">#html</p>
-          <p class="question__hashtags--design">#js</p>
-          <p class="question__hashtags--design">#react</p>
-        </div>
-      </section>
-    </main>
-    <!-------- Add Question Page   ---------->
-
-    <main class="hidden" data-js="main" id="Add Question">
-      <form class="newquestion">
-        <label>
-          <h2>Your Question:</h2>
-          <input class="bigarea" type="textarea" name="question" />
-        </label>
-        <label>
-          <h2>Your Answer:</h2>
-          <input class="bigarea" type="textarea" name="question" />
-        </label>
-        <label>
-          <h2>Your Tags:</h2>
-          <input class="tagarea" type="textarea" name="question" />
-        </label>
-      </form>
-    </main>
-
-    <!-------- Bookmarks Page   ---------->
-    <main class="hidden" data-js="main" id="Bookmarks"></main>
-
-    <!-------- Profile Page   ---------->
-    <main class="hidden" data-js="main" id="Profile">
-      <div class="profile">
-        <section class="profile__userpic">
-          <img src="./assets/profile.png" height="100px" width="200px" alt="" />
-        </section>
-        <section class="profile__name"><p>Benedikt M</p></section>
-        <section class="profile__desc">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
-            numquam dignissimos itaque velit cupiditate accusantium, sequi nisi
-            earum, illum ipsa impedit! Alias qui iusto magni! Molestiae illo
-            consequuntur minima optio!
+    <main>
+      <div class="" data-js="main" id="Quiz-App">
+        <!-------- Question Card 1   ---------->
+        <section class="question" data-js="card">
+          <img
+            src="./assets/bookmark.png"
+            alt=""
+            class="question__bookmark"
+            data-js="bookmark"
+          />
+          <p class="question__text">
+            How can you initialize a local repo with the terminal?
           </p>
+          <button class="question__button" data-js="button">Show answer</button>
+          <p class="hidden" data-js="answer">type "git init"</p>
+          <div class="question__hashtags">
+            <p class="question__hashtags--design">#git</p>
+            <p class="question__hashtags--design">#cli</p>
+            <p class="question__hashtags--design">#vcs</p>
+            <p class="question__hashtags--design">#github</p>
+          </div>
         </section>
+
+        <!-------- Question Card 2   ---------->
+        <section class="question" data-js="card">
+          <img
+            src="./assets/bookmark.png"
+            alt=""
+            class="question__bookmark"
+            data-js="bookmark"
+          />
+          <p class="question__text">
+            What kind of selectors can you use in CSS?
+          </p>
+          <button class="question__button" data-js="button">Show answer</button>
+          <p class="hidden" data-js="answer">
+            type, id, class, universal, pseudo elements and pseudo classes
+          </p>
+          <div class="question__hashtags">
+            <p class="question__hashtags--design">#css</p>
+            <p class="question__hashtags--design">#selectors</p>
+            <p class="question__hashtags--design">#styling</p>
+          </div>
+        </section>
+
+        <!-------- Question Card 3   ---------->
+        <section class="question" data-js="card">
+          <img
+            src="./assets/bookmark.png"
+            alt=""
+            class="question__bookmark"
+            data-js="bookmark"
+          />
+          <p class="question__text">
+            Which word allows you to have your grid-fields over several columns
+            or rows?
+          </p>
+          <button class="question__button" data-js="button">Show answer</button>
+          <p class="hidden" data-js="answer">type "span"</p>
+          <div class="question__hashtags">
+            <p class="question__hashtags--design">#grid</p>
+            <p class="question__hashtags--design">#cli</p>
+            <p class="question__hashtags--design">#vcs</p>
+          </div>
+        </section>
+
+        <!-------- Question Card 4   ---------->
+        <section class="question" data-js="card">
+          <img
+            src="./assets/bookmark.png"
+            alt=""
+            class="question__bookmark"
+            data-js="bookmark"
+          />
+          <p class="question__text">
+            How can you become a Programmer for web development?
+          </p>
+          <button class="question__button" data-js="button">Show answer</button>
+          <p class="hidden" data-js="answer">
+            Participate in a neue Fische Bootcamp
+          </p>
+          <div class="question__hashtags">
+            <p class="question__hashtags--design">#css</p>
+            <p class="question__hashtags--design">#html</p>
+            <p class="question__hashtags--design">#js</p>
+            <p class="question__hashtags--design">#react</p>
+          </div>
+        </section>
+      </div>
+
+      <!-------- Add Question Page   ---------->
+
+      <div class="hidden" data-js="main" id="Add Question">
+        <form class="newquestion">
+          <label>
+            <h2>Your Question:</h2>
+            <input class="bigarea" type="textarea" name="question" />
+          </label>
+          <label>
+            <h2>Your Answer:</h2>
+            <input class="bigarea" type="textarea" name="question" />
+          </label>
+          <label>
+            <h2>Your Tags:</h2>
+            <input class="tagarea" type="textarea" name="question" />
+          </label>
+        </form>
+      </div>
+
+      <!-------- Bookmarks Page   ---------->
+      <div class="hidden" data-js="main" id="Bookmarks"></div>
+
+      <!-------- Profile Page   ---------->
+      <div class="hidden" data-js="main" id="Profile">
+        <div class="profile">
+          <section class="profile__userpic">
+            <img
+              src="./assets/profile.png"
+              height="100px"
+              width="200px"
+              alt=""
+            />
+          </section>
+          <section class="profile__name"><p>Benedikt M</p></section>
+          <section class="profile__desc">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
+              numquam dignissimos itaque velit cupiditate accusantium, sequi
+              nisi earum, illum ipsa impedit! Alias qui iusto magni! Molestiae
+              illo consequuntur minima optio!
+            </p>
+          </section>
+        </div>
       </div>
     </main>
 
@@ -157,4 +167,3 @@
     </footer>
   </body>
 </html>
-–
