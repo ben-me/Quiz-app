@@ -1,0 +1,14 @@
+.newquestion {
+  margin: 2rem 3rem;
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: xx-large;
+  margin-top: 10px;
+  resize: none;
+  padding: 10px 12px;
+}

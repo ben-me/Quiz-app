@@ -16,7 +16,7 @@
 }
 
 .question__text {
-  padding-top: 30px;
+  padding-top: 50px;
   font-weight: 700;
 }
 
@@ -48,11 +48,15 @@
   position: absolute;
   top: -12px;
   right: -5px;
-  width: 10%;
-  max-height: 60px;
-  max-width: 60px;
+  border: none;
+  background: none;
 }
 
 .question__bookmark--active {
   color: blue;
+}
+
+.question__bookmark--img {
+  max-width: 60px;
+  max-height: 60px;
 }
