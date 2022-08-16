@@ -5,8 +5,8 @@ export default function changePages() {
 
   buttons.forEach((button) => {
     button.addEventListener("click", () => {
-      const activeButtons = document.querySelector("button.active");
-      activeButtons.classList.remove("active");
+      const activeButton = document.querySelector("button.active");
+      activeButton.classList.remove("active");
       button.classList.add("active");
       header.textContent = button.id;
 
