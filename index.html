@@ -16,7 +16,7 @@
     </header>
     <!-------- Home Page   ---------->
     <main>
-      <div class="" data-js="main" id="Quiz-App">
+      <div class="hidden" data-js="main" id="Quiz-App">
         <!-------- Question Card 1   ---------->
         <section class="question" data-js="card">
           <button class="question__bookmark" data-js="bookmark">
@@ -115,19 +115,19 @@
 
       <!-------- Add Question Page   ---------->
 
-      <div class="hidden" data-js="main" id="Add Question">
+      <div class="" data-js="main" id="Add Question">
         <form class="newquestion">
           <label>
             <h2>Your Question:</h2>
-            <input class="bigarea" type="textarea" name="question" />
+            <textarea name="yourquestion" rows="5" cols="5"></textarea>
           </label>
           <label>
             <h2>Your Answer:</h2>
-            <input class="bigarea" type="textarea" name="question" />
+            <textarea name="youranswer" cols="1" rows="5"></textarea>
           </label>
           <label>
             <h2>Your Tags:</h2>
-            <input class="tagarea" type="textarea" name="question" />
+            <textarea name="tags" id="" cols="1" rows="1"></textarea>
           </label>
         </form>
       </div>
