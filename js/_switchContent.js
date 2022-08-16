@@ -12,7 +12,6 @@ export default function changePages() {
 
       mains.forEach((main) => {
         if (main.id === button.id) {
-          //console.log("Die AnchorID " + anchor.id + ". Die MainID " + main.id);
           main.classList.remove("hidden");
         } else {
           main.classList.add("hidden");
