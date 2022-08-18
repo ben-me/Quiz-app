@@ -34,10 +34,13 @@ export default function Cards() {
 
     hashtaglist.classList.add("question__hashtags");
 
-    // question.hashtags.forEach((hashtag) => {
-    //   const listElement = document.createElement("li");
-    //   listElement.textContent = hashtag.textContent;
-    // });
+    question.hashtags.forEach((hashtag) => {
+      console.log(hashtag);
+      const listElement = document.createElement("li");
+      listElement.textContent = "#" + hashtag;
+      listElement.classList.add("question__hashtags--design");
+      hashtaglist.append(listElement);
+    });
 
     homePage.append(card);
     card.append(bookmarkButton);
