@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+:root {
+  --main-color: rgb(32, 82, 147);
+}
 
 *,
 *::after,
@@ -10,7 +13,7 @@
 
 body,
 html {
-  background-color: rgb(187, 187, 187);
+  background-color: rgba(128, 128, 128, 0.679);
 }
 
 main {
