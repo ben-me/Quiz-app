@@ -10,7 +10,7 @@ footer {
 }
 
 .icons {
-  background: rgb(32, 82, 147);
+  background: var(--main-color);
   display: flex;
   justify-content: center;
   align-items: center;

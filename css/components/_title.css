@@ -3,8 +3,7 @@ nav {
   position: fixed;
   width: 100%;
   height: 12vh;
-  border-bottom: 2px solid black;
-  background-color: cornflowerblue;
+  background-color: var(--main-color);
   justify-content: center;
   align-items: center;
   z-index: 1;

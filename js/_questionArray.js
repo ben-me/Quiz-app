@@ -29,3 +29,7 @@ export const questionCards = [
     hashtags: ["css", "html", "js", "react"],
   },
 ];
+
+export function changeCardArray(object) {
+  questionCards.unshift(object);
+}

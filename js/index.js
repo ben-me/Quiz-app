@@ -1,9 +1,7 @@
-import toggleAnswer from "./_answer.js";
-import toggleBookmark from "./_bookmark.js";
 import changePages from "./_switchContent.js";
-import Cards from "./_cards.js";
+import renderCards from "./_renderCards.js";
+import addQuestion from "./_addQuestion.js";
 
-Cards();
-toggleAnswer();
-toggleBookmark();
+renderCards();
+addQuestion();
 changePages();

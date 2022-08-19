@@ -1,7 +1,8 @@
-import { questionCards } from "./_questionarray.js";
+import { questionCards } from "./_questionArray.js";
 
 export default function Cards() {
   const homePage = document.querySelector('[data-js="homepage"]');
+  homePage.innerHTML = "";
 
   questionCards.forEach((question) => {
     const card = document.createElement("section");
@@ -43,7 +44,6 @@ export default function Cards() {
     card.append(hashtaglist);
 
     question.hashtags.forEach((hashtag) => {
-      console.log(hashtag);
       const listElement = document.createElement("li");
       listElement.textContent = "#" + hashtag;
       listElement.classList.add("question__hashtags--design");

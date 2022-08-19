@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Quiz App</title>
     <script src="./js/index.js" type="module" defer></script>
+    <link rel="shortcut icon" href="#" />
   </head>
 
   <body>
@@ -21,19 +22,20 @@
       <!-------- Add Question Page   ---------->
 
       <div class="hidden" data-js="addquestionpage">
-        <form class="newquestion">
+        <form class="newquestion" data-js="form">
           <label>
             <h2>Your Question:</h2>
-            <textarea name="yourquestion" rows="5" cols="5"></textarea>
+            <textarea name="question" rows="5" cols="5"></textarea>
           </label>
           <label>
             <h2>Your Answer:</h2>
-            <textarea name="youranswer" cols="1" rows="5"></textarea>
+            <textarea name="answer" cols="1" rows="5"></textarea>
           </label>
           <label>
             <h2>Your Tags:</h2>
             <textarea name="tags" id="" cols="1" rows="1"></textarea>
           </label>
+          <button class="subbutton">Add Card</button>
         </form>
       </div>
 
