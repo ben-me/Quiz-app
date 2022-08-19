@@ -31,5 +31,5 @@ export const questionCards = [
 ];
 
 export function changeCardArray(object) {
-  questionCards.push(object);
+  questionCards.unshift(object);
 }

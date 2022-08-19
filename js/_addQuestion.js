@@ -16,12 +16,8 @@ export default function addQuestion() {
       answer: field.answer.value,
       hashtags: field.tags.value.split(","),
     };
-
-    console.log(newCard);
     changeCardArray(newCard);
-    console.log(questionCards);
     event.target.reset();
     renderCards();
   });
-  console.log(questionCards);
 }
