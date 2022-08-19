@@ -1,4 +1,5 @@
 import { questionCards, changeCardArray } from "./_questionArray.js";
+import renderCards from "./_renderCards.js";
 
 export default function addQuestion() {
   const form = document.querySelector('[data-js="form"');
@@ -20,6 +21,7 @@ export default function addQuestion() {
     changeCardArray(newCard);
     console.log(questionCards);
     event.target.reset();
+    renderCards();
   });
   console.log(questionCards);
 }

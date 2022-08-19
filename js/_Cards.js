@@ -2,6 +2,7 @@ import { questionCards } from "./_questionArray.js";
 
 export default function Cards() {
   const homePage = document.querySelector('[data-js="homepage"]');
+  homePage.innerHTML = "";
 
   questionCards.forEach((question) => {
     const card = document.createElement("section");
